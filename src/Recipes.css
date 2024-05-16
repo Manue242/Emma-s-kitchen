@@ -1,0 +1,60 @@
+.recipes-container {
+    padding: 20px;
+  }
+  
+  .recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recipe-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(33.333% - 20px); /* Ajuste la largeur pour éviter l'espace à droite */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur */
+  }
+  
+  .recipe-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recipe-item h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .recipe-ingredients-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recipe-ingredients-list li {
+    margin: 5px 0;
+  }
+  
+  .recipe-preparation-text {
+    margin-top: 10px;
+  }
+  
+  .recipe-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Ajoute de l'espace entre les boutons */
+    margin-top: 10px;
+  }
+  
+  .recipe-shopping-button, .recipe-toggle-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #45a049;
+    color: #fff;
+    cursor: pointer;
+    text-align: center; /* Centrer le texte dans les boutons */
+  }
+  
